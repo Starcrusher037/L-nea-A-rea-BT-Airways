@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_vuelo_cpontinente" directorySegmentName="seg_0" id="0C28EAC1-74A3-E184-47DA-C31DE7DBF594">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-17 15:10:54 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<sourcePk>3FD9D0DE-CEC3-31C9-67A7-6D378298FE2D</sourcePk>
+<targetPk>DBCD4E19-AE8D-2628-EBED-A79FC72BA236</targetPk>
+<identifying>false</identifying>
+<nameOnSource>debe tener</nameOnSource>
+<nameOnTarget>solo un</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76477626-0463-EE8A-A064-F4BD0E2EC4E5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8C78EC38-D980-EB3E-CDD9-9FA0FF05F6D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBBD3963-1A18-ADF7-1225-30EDA1B34DB9" name="EMPLEADO">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:06:42 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_identificacion_personal" id="766C6698-E106-6CC9-B141-9D48F02345D0">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:07:21 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="08B7053D-FF25-E47E-3F8B-E3B44E069D80">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:08:38 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="EF2AA7B8-CEBC-A22C-395F-9F051C4AC249">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:09:25 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="C0FBDC1A-1465-3748-69CE-086E10DB0CCE">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:10:07 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso_empresa" id="E7DA7B9F-9C67-ABEA-49CF-6B6B8AA8E179">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:10:49 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="D236F905-C3A6-8A83-FC3A-FADE427A1495">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:11:27 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_telefonico_personal" id="43A825C1-98CE-2D90-926E-36796978F3BA">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:11:51 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_contacto_empresarial" id="2D9A10F5-9D5D-D83A-266E-D931A2F63F9A">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:12:50 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E5ED001-7C50-72CF-D6D1-5CE868A1135E" name="EMPLEADO PK">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 23:08:34 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>766C6698-E106-6CC9-B141-9D48F02345D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

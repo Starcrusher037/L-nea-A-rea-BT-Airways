@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="comienzo de proyecto en sql" id="F274DD26-99C2-1D84-DA6D-83C0B22B8F48" version="3.5">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-14 22:15:31 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F274DD26-99C2-1D84-DA6D-83C0B22B8F48</designId>
+</OSDM_Design>
