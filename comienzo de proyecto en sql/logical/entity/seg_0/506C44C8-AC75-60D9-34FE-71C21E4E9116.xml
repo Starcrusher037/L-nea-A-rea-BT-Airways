@@ -28,9 +28,9 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_personal" id="477508D0-6685-3103-E898-EDA5CE9935DC">
+<Attribute name="id_personal" id="2409BF5E-B78B-599B-E4B9-52648B17EF4C">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-26 01:37:21 UTC</createdTime>
+<createdTime>2025-08-26 02:06:46 UTC</createdTime>
 <generatorID>1C901C4D-5F7A-BCE8-8AF0-F0ADA121C234</generatorID>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>

@@ -11,7 +11,7 @@
 <nameOnSource>puede generar</nameOnSource>
 <nameOnTarget>fue generada</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>BBBD3963-1A18-ADF7-1225-30EDA1B34DB9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
