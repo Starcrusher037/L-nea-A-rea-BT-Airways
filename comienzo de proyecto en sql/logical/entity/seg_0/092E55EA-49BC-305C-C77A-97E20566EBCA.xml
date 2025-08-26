@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="092E55EA-49BC-305C-C77A-97E20566EBCA" name="ADMINISTRATIVO">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-26 01:35:18 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horas_extras" id="41537BD7-0F79-C4B5-4618-863F34DE16F7">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-26 01:35:56 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_personal" id="2A00EE82-4F3D-75F8-1AFC-52006BBB535F">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-26 01:39:08 UTC</createdTime>
+<generatorID>F870A691-92F7-DA3B-D291-F6A3E46F4AF6</generatorID>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<referedAttribute>766C6698-E106-6CC9-B141-9D48F02345D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

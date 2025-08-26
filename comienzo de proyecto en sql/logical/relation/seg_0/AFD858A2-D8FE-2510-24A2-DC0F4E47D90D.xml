@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_empleado_reserva" directorySegmentName="seg_0" id="5FB81606-106C-8C1F-69E5-11CF3B5D179F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleado a reserva" directorySegmentName="seg_0" id="AFD858A2-D8FE-2510-24A2-DC0F4E47D90D">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-17 14:39:11 UTC</createdTime>
+<createdTime>2025-08-25 04:23:27 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
 </engineerTo>
 <sourcePk>0E5ED001-7C50-72CF-D6D1-5CE868A1135E</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>generar</nameOnSource>
+<nameOnSource>puede generar</nameOnSource>
+<nameOnTarget>fue generada</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

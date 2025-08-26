@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="numero_identificacion_personal" id="766C6698-E106-6CC9-B141-9D48F02345D0">
+<Attribute name="id_personal" id="766C6698-E106-6CC9-B141-9D48F02345D0">
 <createdBy>56966</createdBy>
 <createdTime>2025-08-14 23:07:21 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
@@ -118,6 +118,19 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp_del_empleado" id="3C741304-665E-5301-E18E-0292F705B7CC">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-25 04:01:24 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

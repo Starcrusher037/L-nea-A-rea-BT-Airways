@@ -1,22 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_vuelo_cpontinente" directorySegmentName="seg_0" id="0C28EAC1-74A3-E184-47DA-C31DE7DBF594">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vuelo a avion" directorySegmentName="seg_0" id="7CC44282-9A37-DE04-AA60-06F2CFAFEBAB">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-17 15:10:54 UTC</createdTime>
+<createdTime>2025-08-25 03:55:21 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
 </engineerTo>
 <sourcePk>3FD9D0DE-CEC3-31C9-67A7-6D378298FE2D</sourcePk>
-<targetPk>DBCD4E19-AE8D-2628-EBED-A79FC72BA236</targetPk>
+<targetPk>5B99E2B2-29A1-5F3A-111A-82092FAA6D88</targetPk>
 <identifying>false</identifying>
-<nameOnSource>debe tener</nameOnSource>
-<nameOnTarget>solo un</nameOnTarget>
+<nameOnSource>pertenece a</nameOnSource>
+<nameOnTarget>puede estar en</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>76477626-0463-EE8A-A064-F4BD0E2EC4E5</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
-<targetEntity>8C78EC38-D980-EB3E-CDD9-9FA0FF05F6D9</targetEntity>
+<targetEntity>96C73E66-6852-BE91-C11B-16C5ADCF706F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

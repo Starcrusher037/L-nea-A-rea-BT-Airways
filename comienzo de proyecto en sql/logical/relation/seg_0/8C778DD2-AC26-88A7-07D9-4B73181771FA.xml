@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pasajero a maleta" directorySegmentName="seg_0" id="8C778DD2-AC26-88A7-07D9-4B73181771FA">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-25 04:11:59 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<sourcePk>228BC497-7A8C-E72A-6777-8380FE1FB2A6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>puede llevar</nameOnSource>
+<nameOnTarget>corresponde a un</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBA38C16-D5E8-4369-99CE-E5390D3AAD19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13212A95-E954-B776-EE37-BF71EF8CCBA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

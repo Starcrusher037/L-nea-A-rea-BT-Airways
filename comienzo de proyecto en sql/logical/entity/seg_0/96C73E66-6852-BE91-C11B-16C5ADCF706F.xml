@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BF78C04-56FE-DE84-33D2-73E054406D70" name="AEROPUERTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96C73E66-6852-BE91-C11B-16C5ADCF706F" name="AVION">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-16 00:12:57 UTC</createdTime>
+<createdTime>2025-08-25 03:48:12 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
@@ -15,21 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_aeropuerto" id="6F8A7091-1E9D-E381-7FB4-02EE4CA2F159">
+<Attribute name="matricula" id="A0D9B3A0-B544-7A32-60FD-AF488EE69024">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-16 00:13:12 UTC</createdTime>
+<createdTime>2025-08-25 03:48:28 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_aeropuerto" id="DA2E19DD-2558-C178-0EEA-78FBD4EA0B5A">
+<Attribute name="marca" id="CFECA75D-65CB-E172-BF5A-D471C02D462A">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-16 00:13:31 UTC</createdTime>
+<createdTime>2025-08-25 03:49:24 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
@@ -37,35 +38,46 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_ciudad" id="7E261A41-B9B3-1CB8-6088-C032672F79EE">
+<Attribute name="modelo" id="D56ECF1F-5DF9-94B9-7D1E-27F7B2F8A2DF">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-17 15:19:13 UTC</createdTime>
-<generatorID>017A3573-BD76-D151-E85C-520C1F49DE43</generatorID>
+<createdTime>2025-08-25 03:49:53 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
 </engineerTo>
-<referedAttribute>344D5D5E-669F-EBD6-4374-7C802D9793FA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad_pasajeros" id="3281EACE-61D5-C5BC-F92C-05F350FE881B">
+<createdBy>56966</createdBy>
+<createdTime>2025-08-25 03:50:14 UTC</createdTime>
+<ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
+<engineerTo>
+<item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D7FB6DBB-3548-6211-EE25-564861D91F46" name="AEROPUERTO PK">
+<identifier id="5B99E2B2-29A1-5F3A-111A-82092FAA6D88" name="AVION PK">
 <createdBy>56966</createdBy>
-<createdTime>2025-08-16 00:13:30 UTC</createdTime>
+<createdTime>2025-08-25 03:49:51 UTC</createdTime>
 <ownerDesignName>comienzo de proyecto en sql</ownerDesignName>
 <engineerTo>
 <item key="48708C14-E8F4-63B8-9201-CBDBF7D05828" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6F8A7091-1E9D-E381-7FB4-02EE4CA2F159</attributeRef>
+<attributeRef>A0D9B3A0-B544-7A32-60FD-AF488EE69024</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
